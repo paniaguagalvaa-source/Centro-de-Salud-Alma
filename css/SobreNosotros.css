@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&family=Playfair+Display:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #d7f8fa;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.logo {
+    width: 230px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    text-decoration: none;
+    color: #00294d;
+    padding: 6px 14px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    color: #00a5d8;
+}
+
+.imagen {
+    width: 100%;
+    height: 500px;
+    background-image: url("../Img/fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titu {
+    width: 70%;
+    max-width: 700px;
+    text-align: center;
+    background: #ffffff2b;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #00000040;
+}
+
+.bien {
+    font-size: 48px;
+    font-family: "Lobster", cursive;
+    color: #0070c9;
+}
+
+.parrafo {
+    font-size: 22px;
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.cajon3 {
+    width: 100%;
+    height: auto;
+    background-color: #56aeff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px;
+    gap: 40px;
+}
+
+.texto1 {
+    width: 50%;
+    min-width: 330px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.titulo1 {
+    font-family: "Lobster", sans-serif;
+    font-size: 36px;
+    color: #0419ff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.parrafo1 {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img {
+    width: 370px;
+    height: 370px;
+    border-radius: 100%;
+    background-color: #0127ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.cajon2 {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 90px 40px;
+    text-align: center;
+}
+
+.titulo2 {
+    font-family: "Lobster", sans-serif;
+    font-size: 46px;
+    color: #000000;
+    margin-bottom: 60px;
+    text-shadow: 0px 3px 6px #00000030;
+}
+
+.cajas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.caja1 {
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.caja1:hover {
+    transform: translateY(-10px);
+}
+
+.img3 {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #009dff;
+    transition: 0.3s;
+}
+
+.titulo3 {
+    font-family: "Lobster", sans-serif;
+    font-size: 28px;
+    margin-top: 15px;
+    color: #003cff;
+}
+
+#parrafo2 {
+    font-size: 19px;
+    font-family: "Playfair Display";
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.cajon4 {
+    width: 100%;
+    background-color: #56aeff;
+    padding: 70px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.texto5 {
+    width: 480px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #00000030;
+}
+
+.titulo5 {
+    font-family: "Lobster";
+    font-size: 36px;
+    color: #0047ff;
+    text-align: center;
+}
+
+.parrafo5 {
+    margin-top: 15px;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    text-align: justify;
+}
+
+.img6 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.cajon5 {
+    background: #56AEFF;
+    padding: 60px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.encabezado {
+    width: 100%;
+    text-align: center;
+}
+
+.doctores {
+    font-family: "Lobster";
+    font-size: 40px;
+    color: #003cff;
+}
+
+.descripcion {
+    font-family: "Playfair Display";
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.caja5 {
+    width: 280px;
+    height: 390px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px #0c01ac5a;
+    transition: 0.3s;
+}
+
+.caja5:hover {
+    transform: translateY(-8px);
+}
+
+.img7 {
+    width: 240px;
+    height: 220px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.titu1 {
+    color: #003cff;
+    font-family: "Lobster";
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tex {
+    font-family: "Playfair Display";
+    font-size: 18px;
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.logo1 {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.caja3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 180px;         
+}
+
+.titulo6 {
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    color: #0047ff;
+    margin-bottom: 5px;
+}
+
+.nombres {
+    display: block;
+    color: #000;
+    font-family: "Playfair Display";
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nombres:hover {
+    color: #007bff;
+}
+
+.redes-social {
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+}
+
+.redes-social a {
+    color: #000;
+    transition: 0.3s;
+}
+
+.redes-social a:hover {
+    color: #007bff;
+}
