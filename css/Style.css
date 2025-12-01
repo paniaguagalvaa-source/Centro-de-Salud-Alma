@@ -857,7 +857,7 @@ nav ul li a:hover {
 }
 }
 
-@media (min-width: 300px) and (max-width: 550px) {
+@media (min-width: 400px) and (max-width: 600px) {
     
 * {
     margin: 0;
@@ -1192,7 +1192,7 @@ nav ul li a:hover {
 
 .cajon4 {
     width: 100%;
-    height: 964px;  
+    height: 960px;  
     background-color:#56AEFF;
     padding: 60px;
     display: flex;
@@ -1202,7 +1202,7 @@ nav ul li a:hover {
 }
 .texto5 {
     width: 800px;
-    height: auto;
+    height: 510px;
     background: #ffffff;
     padding: 25px;
     border-radius: 15px;
